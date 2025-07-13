@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="traffic.css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="bg-container text-center">
+        <h1>Traffic Light</h1>
+        <div class="flex-row">
+            <div class="flex-col">
+                <button class="btn" id="stop" onClick = "stopButton()"> Stop</button>
+                <button class="btn" id="ready" onClick = "readyButton()">Ready</button>
+                <button class="btn" id="go" onClick = "goButton()">Go</button>
+            </div>
+            <div class="bg-btn flex-col">
+                <div class="btn-inside" id="stopBtn"></div>
+                <div class="btn-inside" id="readyBtn"></div>
+                <div class="btn-inside" id="goBtn"></div>
+            </div>
+
+        </div>
+    </div>
+
+<script src="traffic.js"></script>    
+</body>
+</html>

@@ -1,0 +1,54 @@
+.bg-container{
+    background-color: skyblue;
+    height:100vh;
+}
+
+.flex-col{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    width:13vw;
+    height:5vh;
+    background-color:#1f1d41;
+    border-color:black;
+    border-radius:5px;
+    border-width:0px;
+    margin:10px;
+    color:white;
+}
+
+.flex-row{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-btn{
+    width:15vw;
+    height:35vh;
+    background-color:#1f1d41;
+    border-color:black;
+    border-radius:50px;
+    border-width:0px;
+    margin:10px;
+}
+
+.btn-inside{
+    height:8vh;
+    width:8vw;
+    border-radius: 200px;
+    background-color: #7981aa;
+    border-color:black;
+    border-width:3px;
+    margin:10px;
+    border-style:solid;
+}
+
+.text-center{
+    text-align: center;
+}
